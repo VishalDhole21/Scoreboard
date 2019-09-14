@@ -29,7 +29,7 @@ class CreateMatch extends Component{
 	}
 
 	onSubmitCreateMatch(){
-		fetch('http://localhost:3000/creatematch', {
+		fetch('https://young-escarpment-31641.herokuapp.com/creatematch', {
 			method:'post',
 			headers:{'Content-Type':'application/json'},
 			body:JSON.stringify({team1: this.state.creatematchTeam1,
@@ -61,7 +61,7 @@ class CreateMatch extends Component{
 				});
 			}
 			
-			fetch('http://localhost:3000/createOvers', {
+			fetch('https://young-escarpment-31641.herokuapp.com/createOvers', {
 				method:'post',
 				headers:{'Content-Type':'application/json'},
 				body:JSON.stringify(createBalls)

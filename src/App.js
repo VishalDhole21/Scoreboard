@@ -75,7 +75,7 @@ class App extends Component{
     }
 
 componentDidMount() {
-    fetch('http://localhost:3000', ).then(
+    fetch('https://young-escarpment-31641.herokuapp.com', ).then(
       res => res.json()).then(data =>{
          this.state.rowData = data.slice();
          this.setState(this.state);
