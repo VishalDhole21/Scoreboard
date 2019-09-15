@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ag-grid-community": "^21.2.1",
+    "ag-grid-react": "^21.2.1",
     "botstrap": "^0.20.1",
     "react": "^16.9.0",
     "react-addons-update": "^15.6.2",
