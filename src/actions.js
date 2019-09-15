@@ -44,7 +44,7 @@ export const runsChange=(value)=>{
 export const requestBalls=(dispatch,e)=>{	
 console.log('event-',e);
 	dispatch({type:REQUEST_BALLS_PENDING});
-	fetch('https://young-escarpment-31641.herokuapp.com/balls',
+	fetch('https://obscure-lowlands-46028.herokuapp.com/balls',
 		{method:'post',
 		headers:{'Content-Type':'application/json'},
 		body:JSON.stringify({matchid: e.data.matchid})

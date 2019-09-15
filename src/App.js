@@ -75,7 +75,7 @@ class App extends Component{
     }
 
 componentDidMount() {
-    fetch('https://young-escarpment-31641.herokuapp.com', ).then(
+    fetch('https://obscure-lowlands-46028.herokuapp.com', ).then(
       res => res.json()).then(data =>{
          this.state.rowData = data.slice();
          this.setState(this.state);
